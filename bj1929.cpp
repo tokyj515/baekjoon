@@ -1,44 +1,43 @@
 
-
 #pragma warning(disable : 4996)
 using namespace std;
 #include <iostream>
 #include <string>
-#include<cstring>
-#include<algorithm>
-#include<vector>
-#include<cmath>
+#include <cstring>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include <queue>
+#include <deque>
 #define _CRT_SECURE_NO_WARNINGS
 
 
+/*
+//에라토스테네스의 체
 int main() {
 	int m, n;
 	scanf("%d %d", &m, &n);
 
-	int count = 0;
-	int prime = 0;
-
-	int* num = new int[n]; //소수를 담을 배열
-
+	
 	int i, j;
-	for (i = m; i <= n; i++) {
+	int num[1000001] = {}; // 0으로 초기화
+
+	for (int i = 2; i <= n; i++) {
 		num[i] = i;
 	}
 
-
-
-
-	for (i = m; i <= n; i++) {
-		if (num[i] == 1)continue;
-		for (j = i*2; j <= sqrt(num[i]); j++) {
-			if (num[i] % j == 0) count++;
+	for (int i = 2; i <= n; i++) {
+		if (num[i] == 0) continue;
+		for (int j = 2 * i; j <= n; j += i) {
+			num[j] = 0;
 		}
-		if (count == 1) {
-			printf("%d\n", num[i]);
-		}
-		count = 0;
+	}
+
+	for (int i = m; i <= n; i++) {
+		if (num[i] != 0) cout << num[i] << "\n";
 	}
 
 
+
 	return 0;
-}
+}*/
