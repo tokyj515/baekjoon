@@ -12,6 +12,8 @@ using namespace std;
 #include <cmath>
 #define _CRT_SECURE_NO_WARNINGS
 
+
+/*
 //에라토스테네스의 체 
 //내가 원하는 방식으로 구현해둔 것!!!!
 int main() {
@@ -56,4 +58,4 @@ int main() {
 	
 
 	return 0;
-}
+}*/
