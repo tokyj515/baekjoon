@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -139,23 +139,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bj10093.cpp" />
     <ClCompile Include="bj10773.cpp" />
     <ClCompile Include="bj10825.cpp" />
+    <ClCompile Include="bj10826.cpp" />
     <ClCompile Include="bj10845.cpp" />
     <ClCompile Include="bj10866.cpp" />
     <ClCompile Include="bj10867.cpp" />
+    <ClCompile Include="bj10870.cpp" />
+    <ClCompile Include="bj10944.cpp" />
     <ClCompile Include="bj11170.cpp" />
     <ClCompile Include="bj1158.cpp" />
     <ClCompile Include="bj11656.cpp" />
+    <ClCompile Include="bj11660.cpp" />
     <ClCompile Include="bj11931.cpp" />
+    <ClCompile Include="bj13699.cpp" />
+    <ClCompile Include="bj14681.cpp" />
+    <ClCompile Include="bj23055.cpp" />
+    <ClCompile Include="bj2822.cpp" />
+    <ClCompile Include="bj2839.cpp" />
+    <ClCompile Include="bj4344.cpp" />
     <ClCompile Include="bj1357.cpp" />
     <ClCompile Include="bj15649.cpp" />
+    <ClCompile Include="bj15688.cpp" />
     <ClCompile Include="bj1769.cpp" />
+    <ClCompile Include="bj1790.cpp" />
+    <ClCompile Include="bj1966.cpp" />
     <ClCompile Include="bj2164.cpp" />
     <ClCompile Include="bj15815.cpp" />
     <ClCompile Include="bj1929.cpp" />
     <ClCompile Include="bj1935.cpp" />
     <ClCompile Include="bj2108.cpp" />
+    <ClCompile Include="bj1977.cpp" />
     <ClCompile Include="bj2238.cpp" />
     <ClCompile Include="bj2442.cpp" />
     <ClCompile Include="bj2447.cpp" />
@@ -167,6 +182,7 @@
     <ClCompile Include="bj3986.cpp" />
     <ClCompile Include="bj5635.cpp" />
     <ClCompile Include="bj6212.cpp" />
+    <ClCompile Include="bj8979.cpp" />
     <ClCompile Include="bj9012.cpp" />
     <ClCompile Include="bj10828.cpp" />
     <ClCompile Include="bj14501.cpp" />
@@ -195,6 +211,7 @@
     <ClCompile Include="bj5543.c" />
     <ClCompile Include="bj8393.c" />
     <ClCompile Include="bj9498.c" />
+    <ClCompile Include="bj9655.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
