@@ -11,7 +11,7 @@ using namespace std;
 #include <cmath>
 #define _CRT_SECURE_NO_WARNINGS
 
-
+/*
 int main() {
 	int n;
 	scanf("%d", &n);
@@ -57,4 +57,4 @@ int main() {
 	}
 
 	return 0;
-}
+}*/
