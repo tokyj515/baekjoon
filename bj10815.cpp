@@ -13,11 +13,12 @@ using namespace std;
 
 
 
-
 /*
-int arr[500010];
-int arr2[500010];
+
+int arr[500010]; //n에 있는 수
+int arr2[500010]; //m에 있는 수
 int n, m, i, val;
+
 
 int binarySearch(int left, int right, int find) {
 	
@@ -55,7 +56,6 @@ int main() {
 	scanf("%d", &m);
 	for (i = 0; i < m; i++) {
 		scanf("%d", &arr2[i]);
-		
 	}
 
 

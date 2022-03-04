@@ -12,6 +12,7 @@ using namespace std;
 #include <cmath>
 #define _CRT_SECURE_NO_WARNINGS
 
+/*
 int map[110][110];
 int dy[4] = { -1,0,1,0 }; 
 int dx[4] = { 0,1,0,-1 };
@@ -54,4 +55,4 @@ int main() {
 
 
 	return 0;
-}
+}*/

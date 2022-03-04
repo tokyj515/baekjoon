@@ -1,42 +1,54 @@
-
 #pragma warning(disable : 4996)
 using namespace std;
 #include <iostream>
 #include <string>
-#include<algorithm>
-#include<vector>
-#include<cmath>
-#include<stdlib.h>
+#include <cstring>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include <queue>
+#include <deque>
+#include <functional>
+#include <cmath>
 #define _CRT_SECURE_NO_WARNINGS
 
-/*이거 못풀음
+/*
+int dp[35][2]; 
 
 int main() {
 	int d, k; //몇번째날, 떡개수
+
 	scanf("%d %d", &d, &k);
 
-	int* v = new int[d+1];
+	dp[1][1] = 1;
+	dp[1][2] = 0;
+	dp[2][1] = 0;
+	dp[2][2] = 1;
 
-	int i, j;
-	v[1] = 1;
-	v[2] = 1;
-	for (i = 3; i <= d + 1; i++) {
-		v[i] = v[i - 1] + v[1 - 2];
+
+	for (int i = 3; i <= d; i++) {
+		dp[i][1] = dp[i - 2][1] + dp[i - 1][1];
+		dp[i][2] = dp[i - 2][2] + dp[i - 1][2];
 	}
+	
 
-	for (i = 1; i <= k; i++) {
-		for (j = 1; j <= k; j++) {
-			if (i * v[d-2] + j * v[d-1] == k) {
-				printf("%d\n%d", i, j);
+	for (int i = 1; i <= k; i++) {
+		if ((k - i * dp[d][1]) % dp[d][2] == 0) {
+			int j = (k - i * dp[d][1]) / dp[d][2];
+
+			if (i <= j) {
+				printf("%d\n%d\n", i, j);
 				return 0;
 			}
-			else {
-			
+			else if (k < i * dp[d][1] + j * dp[d][2]) {
+				break;
 			}
+
+
+			
+
 		
 		}
-	
-	
 	}
 
 

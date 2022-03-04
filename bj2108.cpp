@@ -11,28 +11,64 @@ using namespace std;
 #define _CRT_SECURE_NO_WARNINGS
 
 /*
+vector<int> nums;
+int num;
+int cnt[8010];
+
+
 int main() {
 	int n;
 	scanf("%d", &n);
 
 
-	int mean; //Æò±Õ
+	double mean = 0; //Æò±Õ
 	int median; //Áß¾Ó°ª
 	int mode; //ÃÖºó°ª
 	int range; //¹üÀ§
 
-	int* num = new int[n];
-	int* count = new int[n];
-	int i, j;
-
-	for (i = 0; i < n; i++) {
-		scanf("%d", &num[i]);
-	}
-	sort(num, num + n);
-
-	for (i = 0; i < n; i++) {
+	
+	for (int i = 0; i < n; i++) {
+		scanf("%d", &num);
+		nums.push_back(num);
 		
+
+		//Æò±ÕÀ» ±¸ÇÏ±â À§ÇØ
+		mean += num;
+
+
+		//ÃÖºó°ªÀ» ±¸ÇÏ±â À§ÇØ
+		if (num < 0) {//-1~-4000
+			cnt[-num]++;
+		}
+		else if (num == 0) {
+			cnt[0]++;
+		}
+		else if (num > 0) {
+			cnt[num + 4000]++;
+		}
+
+
 	}
+	sort(nums.begin(), nums.end());
+
+
+
+
+	//Æò±Õ
+	mean = mean / n;
+	printf("%f\n", round(mean));
+
+	//Áß¾Ó°ª
+	median = nums[n / 2];
+	printf("%d\n", median);
+
+	//ÃÖºó°ª
+	mode = *max_element(nums.begin(), nums.end());
+	printf("%d\n", mode);
+
+	//¹üÀ§
+	range = nums[n - 1] - nums[0];
+	printf("%d\n", range);
 
 
 
