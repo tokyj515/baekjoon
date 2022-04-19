@@ -12,37 +12,35 @@ using namespace std;
 #include <cmath>
 #include <map>
 #define _CRT_SECURE_NO_WARNINGS
-#define INF 987654321
-#define ll long long
-typedef pair<int, int> P;
 
 
 /*
-map <string, int> m;
-
 int main() {
-	int n;
-	scanf("%d", &n);
+	
+	map<long long, int> map; //입력받은 숫자, 해당 숫자 입력된 개수
+	long long N;
+	int max = 0;
+	long long ans;
 
-	while (n--) {
-		string title;
-		cin >> title;
-		
-		m[title]++;
+
+	scanf("%lld", &N);
+
+
+	for (long long i = 0; i < N; i++) {
+		long long num;
+		scanf("%lld", &num);
+		map[num]++;
 	}
 
-	int Max = 0;
 
-	for (auto a : m) {
-		Max = max(Max, a.second);
-	}
-
-	for (auto a : m) {
-		if (a.second == Max) {
-			cout << a.first;
-			return 0;
+	for (auto n : map) {
+		if (n.second > max) {
+			max = n.second;
+			ans = n.first;
 		}
 	}
+
+	printf("%lld\n", ans);
 
 
 	return 0;

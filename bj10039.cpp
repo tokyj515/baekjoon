@@ -12,38 +12,24 @@ using namespace std;
 #include <cmath>
 #include <map>
 #define _CRT_SECURE_NO_WARNINGS
-#define INF 987654321
-#define ll long long
-typedef pair<int, int> P;
 
 
 /*
-map <string, int> m;
-
 int main() {
-	int n;
-	scanf("%d", &n);
+	int num[5];
+	int ans = 0;
 
-	while (n--) {
-		string title;
-		cin >> title;
-		
-		m[title]++;
-	}
+	for (int i = 0; i < 5; i++) {
+		scanf("%d", &num[i]);
 
-	int Max = 0;
-
-	for (auto a : m) {
-		Max = max(Max, a.second);
-	}
-
-	for (auto a : m) {
-		if (a.second == Max) {
-			cout << a.first;
-			return 0;
+		if (num[i] < 40) {
+			num[i] = 40;
 		}
+
+		ans += num[i];
 	}
 
+	printf("%d\n", ans / 5);
 
 	return 0;
 }*/

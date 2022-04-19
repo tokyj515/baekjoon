@@ -10,20 +10,21 @@ using namespace std;
 #include <deque>
 #include <functional>
 #include <cmath>
+#include <map>
 #define _CRT_SECURE_NO_WARNINGS
 
 
 /*
 int main() {
-	int n;
-	scanf("%d", &n);
+	//후보 N명, 주민 M명
+	int N, M;
+	scanf("%d", &N);
 
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
 
-	
-	
+	for (int i = 0; i < N; i++) {
+		scanf("%d")
 	}
+
 
 
 	return 0;

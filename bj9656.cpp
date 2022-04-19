@@ -18,32 +18,44 @@ typedef pair<int, int> P;
 
 
 /*
-map <string, int> m;
+int dp[1001];
 
-int main() {
-	int n;
-	scanf("%d", &n);
+int main() { 
+	//상근이를 기준으로 
+	//이기면 1, 지면 0
 
-	while (n--) {
-		string title;
-		cin >> title;
+	int N;
+	scanf("%d", &N);
+
+	dp[1] = 0;
+	dp[2] = 1;
+	dp[3] = 0;
+
+
+	for (int i = 4; i < 1001; i++) {
+		//dp[i] = min(dp[i - 1], dp[i - 3]) + 1;
 		
-		m[title]++;
-	}
-
-	int Max = 0;
-
-	for (auto a : m) {
-		Max = max(Max, a.second);
-	}
-
-	for (auto a : m) {
-		if (a.second == Max) {
-			cout << a.first;
-			return 0;
+		if (min(dp[i - 1], dp[i - 3]) == 1) {
+			dp[i] = 0;
 		}
+		else {
+			dp[i] = 1;
+		}
+	
 	}
+
+
+	if (dp[N] == 1) {
+		printf("SK");
+	}
+	else {
+		printf("CY");
+	}
+
 
 
 	return 0;
-}*/
+}
+
+
+*/

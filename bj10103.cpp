@@ -12,19 +12,33 @@ using namespace std;
 #include <cmath>
 #define _CRT_SECURE_NO_WARNINGS
 
-
 /*
+
 int main() {
 	int n;
+	int a, b;
+	int aScore = 100;
+	int bScore = 100;
+
+
 	scanf("%d", &n);
-
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
-
 	
-	
+	while (n--) {
+		scanf("%d %d", &a, &b);
+
+		if (a > b) {
+			bScore -= a;
+		}
+		else if (a < b) {
+			aScore -= b;
+		}
+		else {
+			continue;
+		}
+
 	}
 
+	printf("%d\n%d", aScore, bScore);
 
 	return 0;
 }*/

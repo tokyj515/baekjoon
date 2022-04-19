@@ -15,16 +15,13 @@ using namespace std;
 
 /*
 int main() {
-	int n;
-	scanf("%d", &n);
+	int a, b, v;
+	scanf("%d %d %d", &a, &b, &v);
 
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
+	int day;
+	day = (v - b - 1) / (a - b) + 1;
 
-	
-	
-	}
-
+	printf("%d\n", day);
 
 	return 0;
 }*/

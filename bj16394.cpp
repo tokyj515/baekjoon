@@ -12,18 +12,12 @@ using namespace std;
 #include <cmath>
 #define _CRT_SECURE_NO_WARNINGS
 
-
 /*
 int main() {
-	int n;
-	scanf("%d", &n);
+	int y;
+	scanf("%d", &y);
 
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
-
-	
-	
-	}
+	printf("%d", y - 1946);
 
 
 	return 0;

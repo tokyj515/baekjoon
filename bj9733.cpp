@@ -10,20 +10,15 @@ using namespace std;
 #include <deque>
 #include <functional>
 #include <cmath>
+#include <map>
 #define _CRT_SECURE_NO_WARNINGS
 
 
 /*
 int main() {
-	int n;
-	scanf("%d", &n);
+	map<string, string> m;
 
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
 
-	
-	
-	}
 
 
 	return 0;

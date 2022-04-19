@@ -16,33 +16,30 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
-
 /*
-map <string, int> m;
 
 int main() {
-	int n;
-	scanf("%d", &n);
 
-	while (n--) {
-		string title;
-		cin >> title;
-		
-		m[title]++;
-	}
 
-	int Max = 0;
+	while (1) {
 
-	for (auto a : m) {
-		Max = max(Max, a.second);
-	}
+		string s;
+		getline(cin, s);
 
-	for (auto a : m) {
-		if (a.second == Max) {
-			cout << a.first;
-			return 0;
+		if (s == "#") return 0;
+
+		int count = 0;
+		for (int i = 0; i < s.size(); i++) {
+			if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u'
+				|| s[i] == 'A' || s[i] == 'E' || s[i] == 'I' || s[i] == 'O' || s[i] == 'U') {
+				count++;
+			}
 		}
+
+		printf("%d\n", count);
+	
 	}
+
 
 
 	return 0;

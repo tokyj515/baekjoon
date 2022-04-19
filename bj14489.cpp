@@ -10,20 +10,23 @@ using namespace std;
 #include <deque>
 #include <functional>
 #include <cmath>
+#include <map>
 #define _CRT_SECURE_NO_WARNINGS
-
 
 /*
 int main() {
-	int n;
-	scanf("%d", &n);
+	int a, b;
+	int cost;
+	scanf("%d %d", &a, &b);
+	scanf("%d", &cost);
 
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
-
-	
-	
+	if (a + b < cost * 2) {
+		printf("%d\n", a + b);
 	}
+	else {
+		printf("%d\n", a + b - cost * 2);
+	}
+
 
 
 	return 0;

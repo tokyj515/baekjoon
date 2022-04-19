@@ -10,21 +10,14 @@ using namespace std;
 #include <deque>
 #include <functional>
 #include <cmath>
+#include <map>
 #define _CRT_SECURE_NO_WARNINGS
 
 
 /*
+
 int main() {
-	int n;
-	scanf("%d", &n);
-
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
-
-	
-	
-	}
-
+	printf("강한친구 대한육군\n강한친구 대한육군");
 
 	return 0;
 }*/
