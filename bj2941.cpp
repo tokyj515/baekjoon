@@ -16,74 +16,45 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
+
 /*
-
 int main() {
-	string word;
-	cin >> word;
+	string str;
+	cin >> str;
+	int num = 0;
 
-	int count = 0;
-
-
-	for (int i = 0; i < word.size(); i++) {
-		if (word[i] == 'c') {
-			if (word[i + 1] == '=') {
-				count++;
-				i += 2;
-			}
-			else if (word[i + 1] == '-') {
-				count++;
-				i += 2;
-			}
+	int i = 0;
+	while (i < str.length()) {
+		if (str[i] == 'c') {
+			if (str[i + 1] == '=')
+				i++;
+			else if (str[i + 1] == '-')
+				i++;
 		}
-
-		else if (word[i] == 'd') {
-			if (word[i + 1] == 'z' && word[i + 1] == '=') {
-				count++;
-				i += 3;
-			}
-			else if (word[i + 1] == '-') {
-				count++;
+		else if (str[i] == 'd') {
+			if (str[i + 1] == '-')
+				i++;
+			else if (str[i + 1] == 'z' && str[i + 2] == '=')
 				i += 2;
-			}
 		}
-
-		else if (word[i] == 'l') {
-			if (word[i + 1] == 'j') {
-				count++;
-				i += 2;
-			}
-		
+		else if (str[i] == 'l') {
+			if (str[i + 1] == 'j')
+				i++;
 		}
-		else if (word[i] == 'n') {
-			if (word[i + 1] == 'j') {
-				count++;
-				i += 2;
-			}
+		else if (str[i] == 'n') {
+			if (str[i + 1] == 'j')
+				i++;
 		}
-
-		else if (word[i] == 's') {
-			if (word[i + 1] == '=') {
-				count++;
-				i += 2;
-			}
-		
+		else if (str[i] == 's') {
+			if (str[i + 1] == '=')
+				i++;
 		}
-		else if (word[i] == 'z') {
-			if (word[i + 1] == '=') {
-				count++;
-				i += 2;
-			}
-		
+		else if (str[i] == 'z') {
+			if (str[i + 1] == '=')
+				i++;
 		}
+		num++;
+		i++;
 	}
-
-
-
-
-	printf("%d\n", count);
-
-
-
-	return 0;
+	printf("%d\n", num);
 }*/

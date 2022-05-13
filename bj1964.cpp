@@ -16,32 +16,24 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
-//약수 최소 공배수로 나누기
+
 /*
-int gcd(int a, int b) { 
-	while (b != 0) { 
-		int r = a % b; 
-		a = b; 
-		b = r; 
-	} 
-	return a; 
-}
-
-int lcm(int a, int b) {
-	return (a * b) / gcd(a, b);
-}
-
+int arr[10000001];
 
 int main() {
-
-	int n, m;
-	scanf("%d:%d", &n, &m);
-
-	int s = gcd(n, m);
+	int n;
+	scanf("%d", &n);
 
 
+	arr[1] = 5;
 
-	printf("%d:%d\n", n/s, m/s);
+	for (int i = 2; i <= 10000001; i++) {
+		arr[i] = (arr[i - 1] + 4 + (i - 1) * 3) % 45678;
+	
+	}
+
+
+	printf("%d\n", arr[n]);
 
 
 	return 0;

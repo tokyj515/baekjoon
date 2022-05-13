@@ -153,6 +153,8 @@
     <ClCompile Include="bj10718.cpp" />
     <ClCompile Include="bj10757.cpp" />
     <ClCompile Include="bj10773.cpp" />
+    <ClCompile Include="bj10797.cpp" />
+    <ClCompile Include="bj10804.cpp" />
     <ClCompile Include="bj10808.cpp" />
     <ClCompile Include="bj10815.cpp" />
     <ClCompile Include="bj10816.cpp" />
@@ -169,6 +171,7 @@
     <ClCompile Include="bj10951.cpp" />
     <ClCompile Include="bj10952.cpp" />
     <ClCompile Include="bj10953.cpp" />
+    <ClCompile Include="bj10995.cpp" />
     <ClCompile Include="bj10996.cpp" />
     <ClCompile Include="bj10998.cpp" />
     <ClCompile Include="bj11021.cpp" />
@@ -181,6 +184,7 @@
     <ClCompile Include="bj11333.cpp" />
     <ClCompile Include="bj1138.cpp" />
     <ClCompile Include="bj11401.cpp" />
+    <ClCompile Include="bj11441.cpp" />
     <ClCompile Include="bj11504.cpp" />
     <ClCompile Include="bj1152.cpp" />
     <ClCompile Include="bj11561.cpp" />
@@ -205,6 +209,7 @@
     <ClCompile Include="bj1316.cpp" />
     <ClCompile Include="bj13417.cpp" />
     <ClCompile Include="bj1343.cpp" />
+    <ClCompile Include="bj1356.cpp" />
     <ClCompile Include="bj13699.cpp" />
     <ClCompile Include="bj13706.cpp" />
     <ClCompile Include="bj1417.cpp" />
@@ -212,6 +217,7 @@
     <ClCompile Include="bj1449.cpp" />
     <ClCompile Include="bj14490.cpp" />
     <ClCompile Include="bj14500.cpp" />
+    <ClCompile Include="bj14503.cpp" />
     <ClCompile Include="bj14681.cpp" />
     <ClCompile Include="bj14716.cpp" />
     <ClCompile Include="bj1475.cpp" />
@@ -242,10 +248,13 @@
     <ClCompile Include="bj1904.cpp" />
     <ClCompile Include="bj1920.cpp" />
     <ClCompile Include="bj1927.cpp" />
+    <ClCompile Include="bj1964.cpp" />
     <ClCompile Include="bj20301.cpp" />
     <ClCompile Include="bj2110.cpp" />
+    <ClCompile Include="bj2145.cpp" />
     <ClCompile Include="bj2161.cpp" />
     <ClCompile Include="bj2163.cpp" />
+    <ClCompile Include="bj21760.cpp" />
     <ClCompile Include="bj2225.cpp" />
     <ClCompile Include="bj2246.cpp" />
     <ClCompile Include="bj2292.cpp" />
@@ -253,11 +262,16 @@
     <ClCompile Include="bj23320.cpp" />
     <ClCompile Include="bj23350.cpp" />
     <ClCompile Include="bj23841.cpp" />
+    <ClCompile Include="bj2386.cpp" />
     <ClCompile Include="bj2407.cpp" />
     <ClCompile Include="bj2443.cpp" />
     <ClCompile Include="bj24501.cpp" />
     <ClCompile Include="bj2475.cpp" />
     <ClCompile Include="bj2480.cpp" />
+    <ClCompile Include="bj2501.cpp" />
+    <ClCompile Include="bj2530.cpp" />
+    <ClCompile Include="bj2587.cpp" />
+    <ClCompile Include="bj2592.cpp" />
     <ClCompile Include="bj2741.cpp" />
     <ClCompile Include="bj2775.cpp" />
     <ClCompile Include="bj2776.cpp" />
@@ -269,6 +283,7 @@
     <ClCompile Include="bj2941.cpp" />
     <ClCompile Include="bj2974.cpp" />
     <ClCompile Include="bj3009.cpp" />
+    <ClCompile Include="bj3036.cpp" />
     <ClCompile Include="bj3052.cpp" />
     <ClCompile Include="bj3085.cpp" />
     <ClCompile Include="bj3184.cpp" />
@@ -298,13 +313,17 @@
     <ClCompile Include="bj3986.cpp" />
     <ClCompile Include="bj4949.cpp" />
     <ClCompile Include="bj4963.cpp" />
+    <ClCompile Include="bj10865.cpp" />
     <ClCompile Include="bj5073.cpp" />
     <ClCompile Include="bj5430.cpp" />
     <ClCompile Include="bj5524.cpp" />
+    <ClCompile Include="bj5596.cpp" />
     <ClCompile Include="bj5635.cpp" />
     <ClCompile Include="bj5988.cpp" />
     <ClCompile Include="bj6212.cpp" />
+    <ClCompile Include="bj6996.cpp" />
     <ClCompile Include="bj7510.cpp" />
+    <ClCompile Include="bj8394.cpp" />
     <ClCompile Include="bj8979.cpp" />
     <ClCompile Include="bj9012.cpp" />
     <ClCompile Include="bj10828.cpp" />
@@ -334,6 +353,8 @@
     <ClCompile Include="bj5543.c" />
     <ClCompile Include="bj8393.c" />
     <ClCompile Include="bj9086.cpp" />
+    <ClCompile Include="bj9295.cpp" />
+    <ClCompile Include="bj9325.cpp" />
     <ClCompile Include="bj9498.c" />
     <ClCompile Include="bj9655.cpp" />
     <ClCompile Include="bj9656.cpp" />
