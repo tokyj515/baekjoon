@@ -16,6 +16,8 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
+
+/*
 int arr[100001];
 
 
@@ -68,4 +70,4 @@ int main(void)
 		printf("%d\n", sum[j] - sum[i - 1]);
 	}
 	return 0;
-}
+}*/
