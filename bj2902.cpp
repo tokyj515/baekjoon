@@ -16,22 +16,23 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
-/*
+
+
+
 int main() {
-	int ans = 0;
 	string s;
 	cin >> s;
 
-	for (int i = 0; i < s.size(); i++) {
-		if (s[i] == ',') {
-			ans++;
-		}
 
+	string ans = "";
+	ans += s[0];
+	for (int i = 1; i < s.size(); i++) {
+		if (s[i] == '-') {
+			ans += s[i + 1];
+		}
 	}
 
-	printf("%d\n", ans + 1);
-
-
+	cout << ans << "\n";
 
 	return 0;
-}*/
+}
