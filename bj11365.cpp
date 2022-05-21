@@ -1,4 +1,3 @@
-#pragma warning(disable : 4996)
 using namespace std;
 #include <iostream>
 #include <string>
@@ -16,23 +15,24 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
-
-
 /*
 int main() {
 	string s;
-	cin >> s;
 
+	while (true) {
+		string s;
+		getline(cin, s);
 
-	string ans = "";
-	ans += s[0];
-	for (int i = 1; i < s.size(); i++) {
-		if (s[i] == '-') {
-			ans += s[i + 1];
+		if (s == "END") {
+			break;
 		}
-	}
 
-	cout << ans << "\n";
+
+		reverse(s.begin(), s.end());
+
+		cout << s << "\n";
+
+	}
 
 	return 0;
 }*/

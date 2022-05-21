@@ -17,22 +17,32 @@ using namespace std;
 typedef pair<int, int> P;
 
 
-
-/*
 int main() {
-	string s;
-	cin >> s;
+	int n;
+	scanf("%d", &n);
 
+	//int score[101];
+	int score = 0;
+	int result = 0;
+	int cnt = 0;
 
-	string ans = "";
-	ans += s[0];
-	for (int i = 1; i < s.size(); i++) {
-		if (s[i] == '-') {
-			ans += s[i + 1];
+	for (int i = 0; i < n; i++) {
+		scanf("%d", &score);
+
+		if (score != 0) {
+			cnt++;
+			result += cnt;
 		}
+		else {
+			cnt = 0;
+		}
+
 	}
 
-	cout << ans << "\n";
+
+	printf("%d\n", result);
+
 
 	return 0;
-}*/
+}
+
