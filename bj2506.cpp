@@ -16,7 +16,7 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
-
+/*
 int main() {
 	int n;
 	scanf("%d", &n);
@@ -46,3 +46,4 @@ int main() {
 	return 0;
 }
 
+*/
