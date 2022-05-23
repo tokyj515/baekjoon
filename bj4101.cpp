@@ -16,24 +16,25 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
-/*
 int main() {
-	string s;
+	int a, b;
 
 	while (true) {
-		string s;
-		getline(cin, s);
-
-		if (s == "END") {
+		scanf("%d %d", &a, &b);
+		
+		if (a == 0 && b == 0) {
 			break;
 		}
 
-
-		reverse(s.begin(), s.end());
-
-		cout << s << "\n";
-
+		if (a > b) {
+			printf("Yes\n");
+		}
+		else {
+			printf("No\n");
+		}
+	
+	
 	}
-
+	
 	return 0;
-}*/
+}
