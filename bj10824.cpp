@@ -19,24 +19,19 @@ typedef pair<int, int> P;
 
 /*
 int main() {
-	int a, b;
 
-	while (true) {
-		scanf("%d %d", &a, &b);
-		
-		if (a == 0 && b == 0) {
-			break;
-		}
+	string a, b, c, d;
+	cin >> a >> b >> c >> d;
 
-		if (a > b) {
-			printf("Yes\n");
-		}
-		else {
-			printf("No\n");
-		}
-	
-	
-	}
-	
+	string x = a + b;
+	string y = c + d;
+
+
+	ll X = stoll(x);
+	ll Y = stoll(y);
+
+	printf("%lld\n", X + Y);
+
+
 	return 0;
 }*/
