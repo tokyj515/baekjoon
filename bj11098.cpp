@@ -18,7 +18,7 @@ typedef pair<int, int> P;
 
 
 
-
+/*
 int main() {
 	int n;
 	scanf("%d", &n);
@@ -63,4 +63,4 @@ int main() {
 
 
 	return 0;
-}
+}*/
