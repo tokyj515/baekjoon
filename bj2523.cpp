@@ -18,18 +18,24 @@ typedef pair<int, int> P;
 
 
 /*
+
 int main() {
-	int total; 
+	int n;
+	scanf("%d", &n);
 
-	scanf("%d", &total);
-
-	for (int i = 0; i < 9; i++) {
-		int num;
-		scanf("%d", &num);
-		total -= num;
+	for (int i = 1; i <= n; i++) {
+		for (int s = 1; s <= i; s++) {
+			printf("*");
+		}
+		printf("\n");
 	}
 
-	printf("%d", total);
+	for (int i = n-1; i >= 1; i--) {
+		for (int s = 1; s <= i; s++) {
+			printf("*");
+		}
+		printf("\n");
+	}
 
 
 	return 0;
