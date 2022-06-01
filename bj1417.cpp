@@ -15,17 +15,37 @@ using namespace std;
 
 
 /*
+priority_queue<int> pq;
+
 int main() {
-	//후보 N명, 주민 M명
-	int N, M;
-	scanf("%d", &N);
 
 
-	for (int i = 0; i < N; i++) {
-		scanf("%d")
+	int N, cnt = 0, target, vote;
+	cin >> N;
+	cin >> target;
+	N--;
+
+	while (N--) {
+		cin >> vote;
+		if (vote >= target) 
+			pq.push(vote);
 	}
 
+	while (!pq.empty() && pq.top() >= target) {
+		int vote = pq.top();
+		pq.pop();
 
+
+		vote--; 
+		cnt++; 
+		target++;
+
+
+		pq.push(vote);
+	}
+
+	cout << cnt << "\n";
 
 	return 0;
-}*/
+}
+*/
