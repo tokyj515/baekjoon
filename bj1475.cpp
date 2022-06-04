@@ -1,4 +1,4 @@
-#pragma warning(disable : 4996)
+﻿#pragma warning(disable : 4996)
 using namespace std;
 #include <iostream>
 #include <string>
@@ -13,41 +13,23 @@ using namespace std;
 #define _CRT_SECURE_NO_WARNINGS
 
 /*
-int main() {
-	bool visited[10] = { false, }; //0~9
-	string  s;
+int check[10]; //1부터 8까지, 6이랑 9는 6에 같이 체크
+
+int main() { 
+	string s;
 	cin >> s;
 
-	int count = 1; //�⺻ �� �� ��Ʈ
-
 	for (int i = 0; i < s.size(); i++) {
-		switch (s[i]) {
-
-		case '0': case '1': case '2': case '3': case '4': case '5': case '7': case '8':
-			if (visited[s[i]] == false) {
-				visited[s[i]] == true;
-			}
-			else {
-				count++;
-			}
-
-		case '6':
-			if (visited[6] == false) {
-				visited[6] == true;
-			}
-			else if (visited[6] == true && visited[9] == true) {
-				count++;
-				visited[9] == false;
-			}
-		case '9':
-
-		default:
-			break;
-		}
-	
+		check[s[i] - '0']++;
 	}
 
+	int num = 0;
+	for (int i = 0; i < 10; i++) {
+		if (i != 9 && i != 6)
+			num = max(num, check[i]); 
+	}
 
+	cout << max(num, (check[6] + check[9] + 1) / 2);
 
-	return 0;
+	return 0; 
 }*/
