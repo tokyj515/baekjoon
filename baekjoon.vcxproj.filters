@@ -873,10 +873,8 @@
     <ClCompile Include="bj23971.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="bj11098.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClCompile Include="bj7567.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
