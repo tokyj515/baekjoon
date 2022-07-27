@@ -151,6 +151,7 @@
     <ClCompile Include="bj10172.cpp" />
     <ClCompile Include="bj10174.cpp" />
     <ClCompile Include="bj1021.cpp" />
+    <ClCompile Include="bj10214.cpp" />
     <ClCompile Include="bj10250.cpp" />
     <ClCompile Include="bj10569.cpp" />
     <ClCompile Include="bj10718.cpp" />
