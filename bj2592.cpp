@@ -16,8 +16,9 @@ using namespace std;
 #define ll long long
 typedef pair<int, int> P;
 
+
 /*
-map<int, int> m;
+int arr[1001];
 
 
 int main() {
@@ -27,25 +28,30 @@ int main() {
 
 	while (t--) {
 		int num;
-		scanf("%d", &num);
+		cin >> num;
 
-		sum += 10;
+		sum += num;
 
-		m[num]++;
+		arr[num]++;
 	}
 
-	printf("%d\n", sum / 10);
+	
 
-	int Max;
+	int idx;
 	int max_val = 0;
-	for (int i = 0; i < m.size(); i++) {
-		if (max_val < m[i]) {
-			Max = i;
+
+	for (int i = 10; i < 1001; i+=10) {
+		if (max_val < arr[i]) {
+			max_val = arr[i];
+			idx = i;
 		}
 	}
 
 
-	printf("%d\n", Max);
+
+	cout << sum / 10 << "\n";
+	cout << idx << "\n";
+
 
 
 	return 0;
