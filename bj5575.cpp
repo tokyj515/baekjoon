@@ -50,7 +50,7 @@ int main() {
 		h = eh - sh;
 
 		cout << h <<" " << m << " " << s << "\n";
-	
+
 	}
 
 	return 0;
