@@ -457,6 +457,7 @@
     <ClCompile Include="bj6996.cpp" />
     <ClCompile Include="bj7510.cpp" />
     <ClCompile Include="bj7567.cpp" />
+    <ClCompile Include="bj7600.cpp" />
     <ClCompile Include="bj8394.cpp" />
     <ClCompile Include="bj8974.cpp" />
     <ClCompile Include="bj8979.cpp" />
