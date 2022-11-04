@@ -276,6 +276,7 @@
     <ClCompile Include="bj14909.cpp" />
     <ClCompile Include="bj14954.cpp" />
     <ClCompile Include="bj15351.cpp" />
+    <ClCompile Include="bj1547.cpp" />
     <ClCompile Include="bj15552.cpp" />
     <ClCompile Include="bj15596.cpp" />
     <ClCompile Include="bj15727.cpp" />
@@ -357,6 +358,7 @@
     <ClCompile Include="bj2386.cpp" />
     <ClCompile Include="bj23971.cpp" />
     <ClCompile Include="bj2407.cpp" />
+    <ClCompile Include="bj24082.cpp" />
     <ClCompile Include="bj2420.cpp" />
     <ClCompile Include="bj2443.cpp" />
     <ClCompile Include="bj24510.cpp" />
