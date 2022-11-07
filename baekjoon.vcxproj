@@ -270,6 +270,7 @@
     <ClCompile Include="bj14581.cpp" />
     <ClCompile Include="bj14582.cpp" />
     <ClCompile Include="bj14624.cpp" />
+    <ClCompile Include="bj14645.cpp" />
     <ClCompile Include="bj14681.cpp" />
     <ClCompile Include="bj14716.cpp" />
     <ClCompile Include="bj1475.cpp" />
@@ -280,6 +281,7 @@
     <ClCompile Include="bj1547.cpp" />
     <ClCompile Include="bj15552.cpp" />
     <ClCompile Include="bj15596.cpp" />
+    <ClCompile Include="bj1568.cpp" />
     <ClCompile Include="bj15727.cpp" />
     <ClCompile Include="bj15740.cpp" />
     <ClCompile Include="bj15781.cpp" />
@@ -535,6 +537,9 @@
     <ClCompile Include="bj9655.cpp" />
     <ClCompile Include="bj9656.cpp" />
     <ClCompile Include="bj9733.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bj1568.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
