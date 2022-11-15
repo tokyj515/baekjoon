@@ -10,19 +10,53 @@ using namespace std;
 #include <deque>
 #include <functional>
 #include <cmath>
+#include <map>
+#include <set>
 #define _CRT_SECURE_NO_WARNINGS
+#define INF 987654321
+#define ll long long
+typedef pair<int, int> PII;
 
 
 /*
 int main() {
-	int n;
-	scanf("%d", &n);
+	int t;
+	cin >> t;
+	//cin.ignore();
 
-	for (int i = 1; i <= n; i++) {
-		vector<string> v;
+	for(int i = 1; i<=t; i++){
+		string temp = "";
+		stack<string> st;
+		string s;
+		getline(cin, s);
 
-	
-	
+		for (int j = 0; j < s.size(); j++) {
+			
+
+			if (s[j] != ' ') 
+				temp += s[j];
+			else {
+				st.push(temp);
+				st.push(" ");
+				temp = "";
+			}
+		
+		}
+
+		string ans = "";
+
+		cout << "Case #" << i << ": ";
+		while (!st.empty()) {
+			ans += st.top();
+			st.pop();
+		
+		}
+
+
+
+		cout << ans << "\n";
+
+
 	}
 
 
