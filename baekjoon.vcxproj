@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bj1240.cpp" />
     <ClCompile Include="bj10026.cpp" />
     <ClCompile Include="bj1003.cpp" />
     <ClCompile Include="bj10039.cpp" />
@@ -509,6 +510,8 @@
     <ClCompile Include="bj5338.cpp" />
     <ClCompile Include="bj5354.cpp" />
     <ClCompile Include="bj5355.cpp" />
+    <ClCompile Include="bj5362.cpp" />
+    <ClCompile Include="bj5363.cpp" />
     <ClCompile Include="bj5522.cpp" />
     <ClCompile Include="bj5523.cpp" />
     <ClCompile Include="bj5532.cpp" />
