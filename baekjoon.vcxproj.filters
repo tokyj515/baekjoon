@@ -1362,6 +1362,12 @@
     <ClCompile Include="bj1240.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="bj1418.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bj2740.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bj1568.h">
