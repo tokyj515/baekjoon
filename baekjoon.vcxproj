@@ -360,6 +360,7 @@
     <ClCompile Include="bj1924.cpp" />
     <ClCompile Include="bj1927.cpp" />
     <ClCompile Include="bj1964.cpp" />
+    <ClCompile Include="bj19698.cpp" />
     <ClCompile Include="bj20053.cpp" />
     <ClCompile Include="bj20301.cpp" />
     <ClCompile Include="bj2033.cpp" />
