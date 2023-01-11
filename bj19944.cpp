@@ -19,28 +19,15 @@ using namespace std;
 #define pi 3.14159265359
 typedef pair<int, int> PII;
 
-
 /*
-
 int main() {
-	int n;
-	cin >> n;
-
-	n %= 8;
-
-	if (n == 1)
-		cout << 1 << "\n";
-	else if (n == 2 || n == 0)
-		cout << 2 << "\n";
-	else if (n == 3 || n == 7)
-		cout << 3 << "\n";
-	else if (n == 4 || n == 6)
-		cout << 4 << "\n";
-	else if (n == 5)
-		cout << 5 << "\n";
-
-
-
-
-	return 0;
+    int n, m;
+    scanf("%d %d", &n, &m);
+    if (m <= 2)
+        printf("NEWBIE!");
+    else if (n < m)
+        printf("TLE!");
+    else
+        printf("OLDBIE!");
+    return 0;
 }*/
